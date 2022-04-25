@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Currency Convertor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <h1>Currency Convertor</h1>
+        <form action="./CurrencyConvertor" method = "POST">
+            <label for="current_currency">Current Currency:</label>
+            <select name="current_currency" id="current_currency">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                <option value="EURO">EURO</option>
+            </select><br><br>
+            
+            <label for="amount">Enter Amount: </label>
+            <input type="text" id="loan_amount" name="amount"><br><br>
+            
+            <label for="convert_to">Currency To Convert: </label>
+            <select name="convert_to" id="convert_to">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                <option value="EURO">EURO</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </center>
+    </body>
+</html>

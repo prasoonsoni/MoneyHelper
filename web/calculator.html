@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>EMI Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <center><h1>EMI Calculator</h1></center>
+        <center>
+            <form action="./EMICalculator" method="POST">
+
+                <label for="loan_amount">Enter Loan Amount: </label><br>
+                <input type="text" id="loan_amount" name="loan_amount"><br><br>
+
+                <label for="interest_rate">Enter Interest Rate: </label><br>
+                <input type="text" id="interest_rate" name="interest_rate"><br><br>
+
+                <label for="loan_tenure">Enter Loan Tenure(in years): </label><br>
+                <input type="text" id="loan_tenure" name="loan_tenure"><br><br>
+
+                <input type="submit" value="Submit">
+            </form> 
+        </center>
+    </body>
+</html>
